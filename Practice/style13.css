@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ a {
+    font-size: 50px;
+    text-decoration: none;
+    position: relative;
+    
+}
+a::before{
+    content: "";
+    width: 0%;
+    height: 5%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.25s all;
+}
+a:hover::before{
+    width: 100%;
+}
+a::after{
+    content: "";
+    width: 0%;
+    height: 5%;
+    background-color: red;
+    position: absolute;
+   top: 0;
+    right: 0;
+    transition: 0.25s all;
+}
+a:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    background-color: pink;
+    width: 60%;
+    height: 70%;
+    position: relative;
+}
+.container>h1{
+    color: white;
+    background-color: brown;
+    top: 10px;
+    font-size: 20px;
+    position: absolute;
+    z-index: 10 ;
+}

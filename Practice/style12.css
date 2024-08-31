@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+div h1:first-child{
+     font-size: 100px;
+}
+div h1:nth-child(2){
+    color: red;
+}
+div + button{
+    background-color: yellow;
+}
+/* parent child/grandchild/....... */
+/* parent > child */
+/* elements + siblings */
+/* element,element */

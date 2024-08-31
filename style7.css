@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.page1{
+    height: 100%;
+    width: 100%;
+}
+.page1 > video{
+    height: 100%;
+    width: 100%;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   z-index: -1;
+object-fit: cover;
+object-position: center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    position: relative;
+}
+.overlay > h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}

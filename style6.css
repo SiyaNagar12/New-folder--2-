@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+#nav{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+#nav #navleft{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+}
+#navleft h2{
+    color: #333333;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+#nav #navright{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    padding-top:35px ;
+    padding-left: 20%;
+}
+#nav #navright span{
+    font-size: 20px;
+    margin-right: 40px;
+    color: #333333;
+    font-weight: 600;
+}
+#hero{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+#hero #heroleft{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+#hero #heroleft h1{
+    color: #333333;
+    font-size: 80px;
+    margin-left: 35px;
+    line-height: 95px;
+    font-weight: 600;
+}
+ #heroleft button{
+    padding: 10px 20px;
+    margin: 50px 50px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+#hero #heroright{
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+
+}
+ #hero #heroright #circle{
+    background-color: black;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50% -50%);
+    color: white;
+    text-align: center;
+}
+#circle h3{
+    padding: 50px;
+    font-size: 20px;
+}
+#circle h4{
+    padding: 50px;
+    font-size: 15px;
+}
+#circle button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 3px solid #333333;
+    
+}

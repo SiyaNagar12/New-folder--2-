@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: white;
+    font-family: "gilroy";
+}
+
+nav{
+    width: 100%;
+    padding: 10px 15px;
+     display: flex;/*col to row*/
+     justify-content: space-between;
+     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    font-size: 20px;
+} 
+
+nav  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+    gap: 20px;
+    
+}
+nav  ul li{
+    padding-bottom: 5px;
+    transition: 1s all;
+    border-bottom: 1px solid transparent;
+    
+}
+nav ul li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between; 
+    padding-top: 80px;
+}
+.container{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+ 
+}
+.container .left{
+    width: 60%;
+    
+}
+.container .left p {
+      width: 50%;
+      font-size: 26px;
+      margin-bottom: 20px;
+}
+.container .left button{
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    width: 30%;
+    padding-bottom:10px ;
+    display: flex;
+    justify-content: space-between;
+}
+ .container .right  {
+    width: 60%;   
+    font-size: 25px;
+    font-weight: 500;
+}
+.page marquee{
+     display: flex;
+    align-items: center;
+    font-size: 300px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.page marquee img{
+    height: 200px;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+}
+.page2 > h1{
+    width: 50%;
+   margin-bottom:30px;
+   font-size: 50px;
+   font-weight: 500;
+   
+   
+}
+ .page2>hr{
+   height: 0px;
+ 
+ }
+.Page3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.Page3>h1:first-child{
+    width: 45%;
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: 500;
+  
+}
+.Page3>h1:first-child >span{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.Page3 div {
+    width: 30%;
+
+}
+.Page3 >div h1{
+    font-size:30px;
+}
+.Page3 >div p{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    color: #939691;
+}
+
+
+.Page3 >h1:last-child{
+    text-align: right;
+    font-size: 20px;
+    width: 20%;
+}
+ 
+

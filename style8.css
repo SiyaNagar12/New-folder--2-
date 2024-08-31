@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    position: relative;
+    display: flex;
+     flex-direction: row; 
+    justify-content:  space-between;
+    align-items: start;
+    flex-wrap: wrap;
+
+
+}
+#page1{
+    width: 10%;
+    height: 20%;
+    background-color: blue;
+}
+#page2{
+    width: 10%;
+    height: 20%;
+    background-color: green;
+}
+#page3{
+    width: 10%;
+    height: 20%;
+    background-color: orangered;
+}
+/*Flex-direction -> main-axis -> justify-content
+
+opposite-flex-direction -> cross-axis -> align-items
+*/

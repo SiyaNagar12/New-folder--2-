@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: floralwhite;
+    background-image: url(https://imgeng.jagran.com/images/2024/06/24/article/image/Amazon%20Sale%202024%20On%20Best%20Laptop%20Company%20In%20The%20World-1719210607632.jpg)
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}.card{
+    width: 320px;
+    height: 400px;
+    background-color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+      align-content: center;
+      border-radius: 10px;
+      border: 3px solid black;
+
+}
+.card>img{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    
+}
+.card h1{
+    font: 100 30px "aerial";
+    margin-top: 20px auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.card p{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.card button{
+    margin: auto;/*center mai lane ke liye*/
+    display: block;
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color:black;
+    color: white;
+     
+}
+
+

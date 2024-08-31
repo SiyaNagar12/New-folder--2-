@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* animation: name duration timing-function delay iteration-count direction; */
+    animation: move 1s linear 5s infinite both;
+/* both:(bacward,forward) */
+}
+/* @keyframes move{
+    from{
+        left: 0%;
+        top: 0%;
+    }
+    to{
+        left: 50%;
+    }
+} */
+@keyframes move{
+    0%{
+       top: 0;
+       left: 0;
+    }
+    20%{
+        top:0;
+        left: 50%;
+    }
+    50%{
+       left: 50%;
+       top: 50%;
+    }
+    75%{
+        top: 50%;
+        left: 0; 
+    }
+    100%{
+     top: 0%;
+     left: 0%;
+    }
+}
+    button{
+        background-color: red;
+        animation: micro 1s linear 2s infinite both;
+        
+    }
+    @keyframes micro{
+        from{
+            background-color: brown;
+        }
+        to{
+         background-color: rgba(red,0,0, 0.25);
+        }
+
+    }
+    /* first-child,last-child,nth-child() */
+    /* before,after, */
+    /* first-line,last-line */
+    .box:first-child{
+        color: white;
+
+    }
+    /* pseudo class and pseudo element */
+    /* pseudo class -> pseudo class used to change the element structure */
+    /* pseudo elements -> pseudo elements  */
